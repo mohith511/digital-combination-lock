@@ -1,3 +1,4 @@
+
 # 🔐 Digital Combination Lock Using Arduino
 
 An Arduino-based digital security system that uses password authentication to control access through a keypad, LCD display and servo motor. The project is designed and simulated using **Autodesk Tinkercad**.
@@ -5,6 +6,12 @@ An Arduino-based digital security system that uses password authentication to co
 ## 📸 Circuit Diagram
 
 ![Digital Combination Lock Circuit](Digital-Locker%20CIRCUIT.png)
+
+## 📐 Schematic Diagram
+
+The electronic schematic of the Digital Combination Lock project.
+
+📄 [View Schematic Diagram (PDF)](schematic-diagram.pdf)
 
 ## 🚀 Project Overview
 
@@ -28,18 +35,18 @@ The Arduino UNO processes the entered password and verifies whether it is correc
 
 ## 🧰 Components Used
 
-| Component | Purpose |
-|---|---|
-| Arduino UNO | Main controller |
-| 4×4 Keypad | Password input |
-| LCD Display | Displays system messages |
-| Servo Motor | Locking mechanism |
-| Buzzer | Audio alerts |
-| Red LED | Access denied indication |
-| Green LED | Access granted indication |
-| Resistors | Circuit protection |
-| Breadboard | Circuit connections |
-| Jumper Wires | Electrical connections |
+| Component    | Purpose                   |
+| ------------ | ------------------------- |
+| Arduino UNO  | Main controller           |
+| 4×4 Keypad   | Password input            |
+| LCD Display  | Displays system messages  |
+| Servo Motor  | Locking mechanism         |
+| Buzzer       | Audio alerts              |
+| Red LED      | Access denied indication  |
+| Green LED    | Access granted indication |
+| Resistors    | Circuit protection        |
+| Breadboard   | Circuit connections       |
+| Jumper Wires | Electrical connections    |
 
 ## ⚙️ Working Principle
 
@@ -54,7 +61,7 @@ The Arduino UNO processes the entered password and verifies whether it is correc
 
 The Arduino source code is available here:
 
-[`digital-combination-lock.ino`](digital-combination-lock.ino)
+📄 [View Arduino Source Code](digital-combination-lock.ino)
 
 ## 🛠️ Development Platform
 
@@ -69,6 +76,7 @@ digital-combination-lock/
 │
 ├── digital-combination-lock.ino
 ├── Digital-Locker CIRCUIT.png
+├── schematic-diagram.pdf
 └── README.md
 ```
 
